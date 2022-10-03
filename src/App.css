@@ -1,5 +1,6 @@
 .container {
-  text-align: center;
+  text-align: start;
+  padding-left: 100px;
 }
 
 .buttons {
