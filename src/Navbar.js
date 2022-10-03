@@ -10,6 +10,9 @@ function Navbar() {
             <a href="#projects">Projects</a>
         </button>
         <button className="font-bold bg-orange-700 hover:bg-yellow-600 py-3 px-8 mx-3 rounded">
+            <a href="#resume">Resume</a>
+        </button>
+        <button className="font-bold bg-orange-700 hover:bg-yellow-600 py-3 px-8 mx-3 rounded">
             <a href="#contact">Contact</a>
         </button>
     </div>
