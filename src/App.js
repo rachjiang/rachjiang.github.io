@@ -1,8 +1,9 @@
-import './App.css';
 import Header from './Header';
 import Navbar from './Navbar';
 import Projects from './Projects';
 import About from './About';
+import Resume from './Resume';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
     <Header />
     <About />
     <Projects />
-    <button onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}}>Scroll To Top</button>
+    <Resume />
+    <Contact />
+    <button onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}}>
+      <svg><circle cx="50" cy="50" r="40" stroke="brown" stroke-width="4" fill="pink" /></svg>
+    </button>
   </div>
   );
 }
