@@ -1,21 +1,18 @@
-import './App.css';
+import './Navbar.css';
+import { Link } from 'react-scroll';
 
 function Navbar() {
     return (
-    <div className="buttons py-10 mx-auto font-mono text-white">
-        <button className="font-bold bg-orange-700 hover:bg-yellow-600 py-3 px-8 mx-3 rounded">
-            <a href="#about">About</a>
-        </button>
-        <button className="font-bold bg-orange-700 hover:bg-yellow-600 py-3 px-8 mx-3 rounded">
-            <a href="#projects">Projects</a>
-        </button>
-        <button className="font-bold bg-orange-700 hover:bg-yellow-600 py-3 px-8 mx-3 rounded">
-            <a href="#resume">Resume</a>
-        </button>
-        <button className="font-bold bg-orange-700 hover:bg-yellow-600 py-3 px-8 mx-3 rounded">
-            <a href="#contact">Contact</a>
-        </button>
-    </div>
+    <nav id="navbar" className="buttons">
+        <Link to="about" smooth={true} duration={800} className="py-3 px-8 mx-3 rounded">About
+        </Link>
+        <Link to="projects" smooth={true} duration={800} className="py-3 px-8 mx-3 rounded">Projects
+        </Link>
+        <Link to="resume" smooth={true} duration={800} className="py-3 px-8 mx-3 rounded">Resume
+        </Link>
+        <Link to="contact" smooth={true} duration={800} className="py-3 px-8 mx-3 rounded">Contact
+        </Link>
+    </nav>
     )
 }
 
