@@ -6,10 +6,10 @@
     color: white;
   }
 
-a {
+.link {
     background-color: rgb(194 65 12);
 }
 
-a:hover {
+.link:hover {
     background-color: rgb(202 138 4);
 }
