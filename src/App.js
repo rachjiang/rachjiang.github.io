@@ -9,8 +9,9 @@ function App() {
   <div className="bg-parchment bg-cover">
     <Navbar />
     <Header />
-    <Projects />
     <About />
+    <Projects />
+    <button onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}}>Scroll To Top</button>
   </div>
   );
 }
