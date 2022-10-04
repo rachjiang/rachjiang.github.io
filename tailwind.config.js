@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'parchment': "url('/public/light-pink-blue.png')",
+        'parchment': "url('/public/pink-watercolor.png')",
       }
     },
   },

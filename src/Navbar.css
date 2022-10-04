@@ -1,0 +1,15 @@
+.buttons {
+    text-align: end;
+    padding: 75px;
+    font-size: x-large;
+    font-family: monospace;
+    color: white;
+  }
+
+a {
+    background-color: rgb(194 65 12);
+}
+
+a:hover {
+    background-color: rgb(202 138 4);
+}

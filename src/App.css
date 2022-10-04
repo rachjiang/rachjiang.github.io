@@ -1,23 +1,9 @@
 .container {
   text-align: start;
-  padding-left: 100px;
+  padding: 150px;
 }
 
-.buttons {
-  text-align: end;
-  padding-right: 50px;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  padding: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
