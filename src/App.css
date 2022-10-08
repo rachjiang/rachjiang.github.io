@@ -1,17 +1,11 @@
 .container {
+  width: 100%;
   margin-top: 75px;
   margin-bottom: 200px;
   padding: 160px;
-  width: 60%;
   background-color: #E8E9ED;
-  opacity: 90%;
+  opacity: 85%;
 }
-/* 
-section {
-  text-align: start;
-  padding-right: 125px;
-  color: white;
-} */
 
 li {
   padding: 30px;

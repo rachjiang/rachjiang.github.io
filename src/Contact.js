@@ -3,7 +3,7 @@ import './App.css';
 
 function Contact() {
     return(
-        <section id="contact" className="container mx-auto font-mono p-8 m-10">
+        <section id="contact" className="container mx-auto font-mono">
         <h2 className="text-5xl font-bold">Contact</h2>
         <div>
             <li>Email</li>
