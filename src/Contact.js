@@ -1,14 +1,15 @@
 import React from 'react';
+import './App.css';
 
 function Contact() {
     return(
-        <section id="contact" className="container mx-auto font-mono">
+        <section id="contact" className="container mx-auto font-mono p-8 m-10">
         <h2 className="text-5xl font-bold">Contact</h2>
-        <ul className="text-2xl">
+        <div>
             <li>Email</li>
-            <li>LinkedIn</li>
+            <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons"></a>
             <li>Github</li>
-        </ul>
+        </div>
     </section>
     )
 }

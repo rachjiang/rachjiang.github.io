@@ -1,8 +1,19 @@
 .container {
-  text-align: start;
-  padding: 150px;
+  margin-top: 75px;
+  margin-bottom: 200px;
+  padding: 160px;
+  width: 60%;
+  background-color: #E8E9ED;
+  opacity: 90%;
 }
+/* 
+section {
+  text-align: start;
+  padding-right: 125px;
+  color: white;
+} */
 
 li {
-  padding: 100px;
+  padding: 30px;
+  font-size: x-large;
 }

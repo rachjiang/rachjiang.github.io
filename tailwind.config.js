@@ -3,8 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'parchment': "url('/public/pink-watercolor.png')",
+      colors: {
+        "yellow": "#E5B181",
+        "sienna": "#DE6B48",
+        "pink": "#F4B9B2",
       }
     },
   },
