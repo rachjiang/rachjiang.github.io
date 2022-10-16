@@ -6,7 +6,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-  <div className="bg-gradient-to-b from-pink to-yellow">
+  <div className="bg-gradient-to-b from-tuscany to-desert">
     <Navbar />
     <Header />
     <About />

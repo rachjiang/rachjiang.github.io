@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "yellow": "#E5B181",
-        "sienna": "#DE6B48",
-        "pink": "#F4B9B2",
+        "tuscany": "#B49286",
+        "tumbleweed":"#F3B391",
+        "sage":"#ACC3A6",
+        "desert":"#F6D4BA",
       }
     },
   },
