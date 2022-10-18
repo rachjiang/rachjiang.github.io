@@ -12,6 +12,7 @@ module.exports = {
         "lime": "#EEFCCE",
         "blush": "#FFEDE1",
         "eggshell":"#F6F0ED",
+        "space":"#283044",
       }
     },
   },
