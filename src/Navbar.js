@@ -4,7 +4,6 @@ import { Link } from 'react-scroll';
 import pdf from './assets/Rachel_Jiang_Resume2022.pdf'
 
 function Navbar() {
-
     return (
     <nav id="navbar" className="buttons">
         <Link to="about" smooth={true} duration={500} className="link py-3 px-8 mx-3 rounded">About

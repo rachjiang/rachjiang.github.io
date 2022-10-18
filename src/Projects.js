@@ -4,25 +4,31 @@ import projects from './assets/projects';
 
 function Projects() {
     return (
-    <section id="projects" className="container mx-auto font-mono">
-        <h2 className="text-4xl font-bold pb-10">Some projects I've worked on</h2>
-        <ul>
+    <section id="projects">
+        <h2 className="project-header font-bold font-mono">Some projects I've worked on</h2>
+        <div>
             {projects.map(project => {
                 return (
-                <div>        
-                    <li className="text-left font-bold mx-4 pt-10">{project.title}</li>
-                    <li className="text-base">{project.description}</li>
-                    <div className="outer">
-                        <div className="inner">
-                            <img alt="project" src={require(`./assets/${project.image}`)} className="pt-10 pb-10 max-w-5xl"/>
+                <div className="project-container">
+                    <div className="text-col">
+                        <div>
+                            <p className="font-bold">{project.title}</p><br></br>
+                            <p>{project.description}</p><br></br>
+                            <p>Contributions: {project.contribution}</p><br></br>
+                            <p>{project.stack}</p>
                         </div>
                     </div>
-                    <li className="text-base">Contributions: {project.contribution}</li>
-                    <li className="text-sm pb-10">{project.stack}</li>
-                </div> 
+                    <div className="img-col">
+                        <div className="outer">
+                            <div className="inner">
+                                <img alt="project" src={require(`./assets/${project.image}`)} className="max-w-5xl"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 )
             })}
-        </ul>
+        </div>
     </section>
     )
 }
