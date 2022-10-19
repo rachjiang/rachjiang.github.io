@@ -6,7 +6,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-  <div className="bg-blush">
+  <div className="bg-gradient-to-br from-space via-onyx to-sage">
     <Navbar />
     <Header />
     <About />

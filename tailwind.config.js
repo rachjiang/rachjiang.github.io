@@ -13,6 +13,7 @@ module.exports = {
         "blush": "#FFEDE1",
         "eggshell":"#F6F0ED",
         "space":"#283044",
+        "onyx":"#373E40",
       }
     },
   },
