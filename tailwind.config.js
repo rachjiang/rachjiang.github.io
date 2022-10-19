@@ -9,7 +9,6 @@ module.exports = {
         "sage": "#ACC3A6",
         "desert": "#F6D4BA",
         "powder": "#FDFFFC",
-        "lime": "#EEFCCE",
         "blush": "#FFEDE1",
         "eggshell":"#F6F0ED",
         "space":"#283044",
