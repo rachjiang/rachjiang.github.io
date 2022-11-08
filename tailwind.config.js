@@ -4,13 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "lav": "#FCEFEF",
-        "tumbleweed": "#F3B391",
-        "sage": "#ACC3A6",
-        "desert": "#F6D4BA",
-        "powder": "#FDFFFC",
-        "blush": "#FFEDE1",
-        "eggshell":"#F6F0ED",
+        "grape": "#9480B3",
+        "moss": "#8DAC86",
+        "blue": "#5C8EAD",
+        "desert": "#AE847E",
+        "alabaster":"#F9F6F1",
         "space":"#283044",
         "onyx":"#373E40",
       }
