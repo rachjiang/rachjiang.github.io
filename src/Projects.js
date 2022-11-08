@@ -5,7 +5,7 @@ import projects from './assets/projects';
 function Projects() {
     return (
     <section id="projects">
-        <h2 className="project-header font-bold font-mono">PROJECTS</h2>
+        <h2 className="project-header text-grape font-bold font-mono">PROJECTS</h2>
         <div>
             {projects.map(project => {
                 return (
