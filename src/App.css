@@ -1,3 +1,19 @@
+.buttons {
+  text-align: end;
+  padding: 50px;
+  font-size: x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.link {
+  background-color: #5C8EAD;
+}
+
+.link:hover {
+  background-color: #9480B3;
+}
+
 .container {
   text-align: center;
   max-width: 100%;
@@ -24,11 +40,12 @@
 }
 
 .img-col {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .text-col {
-  flex-basis: 35%;
+  flex-basis: 40%;
+  max-width: 100%;
   background-color:#fff3f1;
   margin-top: 100px;
   padding: 50px;
@@ -42,4 +59,33 @@ img {
   margin: 50px 50px 0 50px;
   box-shadow: 20px 20px #78A1BB;
   border: 0.1rem solid black; 
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) { /* smaller windows on desktop */
+  .container {
+    padding: 200px;
+  }
+
+  .project-header {
+    padding-top: 180px;
+    padding-bottom: 120px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    padding-bottom: 200px;
+  }
+
+  img {
+    max-width: 85%;
+  }
+
+  .text-col {
+    max-width: 75%;
+  }
+
 }

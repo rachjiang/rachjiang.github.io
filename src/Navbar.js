@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './App.css';
 import { Link } from 'react-scroll';
 import pdf from './assets/Rachel_Jiang_Resume2022.pdf'
 
