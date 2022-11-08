@@ -3,7 +3,7 @@ import './App.css';
 
 function Contact() {
     return(
-        <section id="contact" className="container font-mono">
+        <section id="contact" className="container border-t border-black font-mono">
         <h2 className="text-4xl text-grape font-bold">Let's chat!</h2>
         <div>
             <a>Email</a>
