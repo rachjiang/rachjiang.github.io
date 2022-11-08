@@ -11,6 +11,9 @@ module.exports = {
         "alabaster":"#F9F6F1",
         "space":"#283044",
         "onyx":"#373E40",
+      },
+      backgroundImage: {
+        "wildflower": "url('/public/wildflower.jpg')",
       }
     },
   },
