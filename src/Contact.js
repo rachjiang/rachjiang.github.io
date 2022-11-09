@@ -9,9 +9,6 @@ function Contact() {
         <section id="contact" className="container font-mono">
             <div>
                 <h2 className="text-4xl text-grape font-bold">Let's chat!</h2>
-                    <a><MailLogo /></a>
-                    <a><LinkedInLogo /></a>
-                    <a><GithubLogo /></a>
                 </div>
         </section>
     )
