@@ -47,16 +47,15 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
   margin: 50px 50px 0 50px;
   box-shadow: 20px 20px #78A1BB;
   border: 0.1rem solid black;
-  transition: .5s ease;
 }
 
 .img-col {
-  flex-basis: 55%;
+  flex-basis: 45%;
 }
 
 .text-col {
