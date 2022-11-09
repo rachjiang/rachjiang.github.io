@@ -1,9 +1,14 @@
+.App {
+  background-color: #fffcf7;
+}
+
 .buttons {
   text-align: end;
   padding: 50px;
   font-size: x-large;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
+  /* border-bottom: 0.08rem solid black; */
 }
 
 .link {
@@ -17,17 +22,18 @@
 .container {
   text-align: center;
   max-width: 100%;
-  padding: 250px;
-  border-bottom: 0.08rem solid black;
+  padding: 230px;
+  /* border-bottom: 0.08rem solid black; */
 }
 
 .project-header {
   text-align: center;
   max-width: 100%;
-  padding-top: 220px;
-  padding-bottom: 180px;
+  padding-top: 200px;
+  padding-bottom: 160px;
   font-size: 40px;
   text-align: center;
+  background-color: #f1f1f1;
 }
 
 .project-container {
@@ -37,6 +43,7 @@
   font-size: 13pt;
   max-width: 100%;
   padding-bottom: 250px;
+  background-color: #f1f1f1;
 }
 
 img {
@@ -44,11 +51,12 @@ img {
   height: auto;
   margin: 50px 50px 0 50px;
   box-shadow: 20px 20px #78A1BB;
-  border: 0.1rem solid black; 
+  border: 0.1rem solid black;
+  transition: .5s ease;
 }
 
 .img-col {
-  flex-basis: 50%;
+  flex-basis: 55%;
 }
 
 .text-col {
@@ -61,10 +69,19 @@ img {
   border: 0.15rem solid #373E40; 
 }
 
+.text-col a {
+  color:#67985d;
+  font-weight: 600;
+}
+
+.text-col a:hover {
+  opacity: 0.8;
+  color: #141d33;
+}
 
 
 
-@media screen and (max-width: 1200px) { /* smaller windows on desktop */
+@media screen and (max-width: 1024px) { /* sm windows and tablets */
   .container {
     padding: 200px;
   }

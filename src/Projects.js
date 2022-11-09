@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import projects from './assets/projects';
+import './App.css';
 
 function Projects() {
     return (
@@ -11,17 +11,16 @@ function Projects() {
                 return (
                 <div className="project-container">
                     <div className="img-col">
-                        <div>
+                        <a href={project.github}>
                             <img alt="project" src={require(`./assets/${project.image}`)}/>
-                        </div>
+                        </a>
                     </div>
                     <div className="text-col">
-                        <div>
-                            <p className=" font-bold">{project.title}</p><br></br>
-                            <p>{project.description}</p><br></br>
-                            <p>Contributions: {project.contribution}</p><br></br>
-                            <p>{project.stack}</p>
-                        </div>
+                        <p className="font-bold">{project.title}</p><br></br>
+                        <p>{project.description}</p><br></br>
+                        <p>Contributions: {project.contribution}</p><br></br>
+                        <p className="pb-5">{project.stack}</p>
+                        <a href={project.github}>View project</a>
                     </div>
                 </div>
                 )

@@ -14,6 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         "wildflower": "url('/public/wildflower.jpg')",
+        "floral": "url('/public/bottom-floral.jpg')",
       }
     },
   },
