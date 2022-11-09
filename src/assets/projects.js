@@ -8,7 +8,7 @@ const projects = [
  },
  {
     title: "Ingredient Inspector",
-    description: "A food interpreter which lists possible ingredients and their accuracyrates when the user submits a food-image URL.",
+    description: "A food interpreter which lists possible ingredients and their accuracy rates when the user submits a food-image URL.",
     contribution: "Integrated Clarifai's food-recognition AI model into a react app through Node, set up Express route to upload images for ingredient prediction, created react components for image search and prediction results, styled with Bootstrap.",
     stack: "React, Express, Node.js, Clarifai, Bootstrap",
     image: "II.png"

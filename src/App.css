@@ -1,14 +1,31 @@
+.buttons {
+  text-align: end;
+  padding: 50px;
+  font-size: x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.link {
+  background-color: #5C8EAD;
+}
+
+.link:hover {
+  background-color: #9480B3;
+}
+
 .container {
   text-align: center;
   max-width: 100%;
-  padding: 220px;
-  border-bottom: 0.1rem solid black;
+  padding: 250px;
+  border-bottom: 0.08rem solid black;
 }
 
 .project-header {
   text-align: center;
   max-width: 100%;
   padding-top: 220px;
+  padding-bottom: 180px;
   font-size: 40px;
   text-align: center;
 }
@@ -19,30 +36,56 @@
   justify-content: center;
   font-size: 13pt;
   max-width: 100%;
-  padding-top: 100px;
-  padding-bottom: 150px;
-  border-bottom: 0.1rem solid black;
+  padding-bottom: 250px;
 }
 
 .img-col {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .text-col {
-  flex-basis: 35%;
+  flex-basis: 40%;
+  max-width: 100%;
   background-color:#fff3f1;
   margin-top: 100px;
   padding: 50px;
   border-radius: 25px;
-  border: 0.1rem solid black; 
+  border: 0.15rem solid #373E40; 
 }
 
 img {
   max-width: 120%;
   height: auto;
   margin: 50px 50px 0 50px;
-  border-width: 0.1rem;
-  border-color: black;
   box-shadow: 20px 20px #78A1BB;
   border: 0.1rem solid black; 
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) { /* smaller windows on desktop */
+  .container {
+    padding: 200px;
+  }
+
+  .project-header {
+    padding-top: 180px;
+    padding-bottom: 120px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    padding-bottom: 200px;
+  }
+
+  img {
+    max-width: 85%;
+  }
+
+  .text-col {
+    max-width: 75%;
+  }
+
 }
