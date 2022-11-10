@@ -7,14 +7,14 @@ module.exports = {
         "grape": "#9480B3",
         "moss": "#8DAC86",
         "blue": "#5C8EAD",
-        "desert": "#AE847E",
+        "timberwolf": "#E4DFDA",
         "alabaster":"#F9F6F1",
         "space":"#283044",
-        "onyx":"#373E40",
+        "isabelline":"#f1f1f1",
       },
       backgroundImage: {
-        "wildflower": "url('/public/wildflower.jpg')",
-        "floral": "url('/public/bottom-floral.jpg')",
+        "yellow": "url('/public/yellow.jpg')",
+        "geometric": "url('/public/geometric.jpg')",
       }
     },
   },
