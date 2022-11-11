@@ -6,7 +6,7 @@ function Projects() {
     return (
     <section id="projects">
         <div>
-            <h2 className="project-header text-grape font-bold font-mono underline underline-offset-8">PROJECTS</h2>
+            <h2 className="project-header text-grape underline underline-offset-8">PROJECTS</h2>
             {projects.map(project => {
                 return (
                 <div className="project-container">

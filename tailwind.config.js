@@ -10,11 +10,11 @@ module.exports = {
         "timberwolf": "#E4DFDA",
         "alabaster":"#F9F6F1",
         "space":"#283044",
-        "isabelline":"#f1f1f1",
+        "sapphire":"#2A5B75",
+        "blush": "#F9F0F2",
       },
       backgroundImage: {
-        "yellow": "url('/public/yellow.jpg')",
-        "geometric": "url('/public/geometric.jpg')",
+        "watercolor": "url('/public/watercolor.jpg')",
       }
     },
   },

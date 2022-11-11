@@ -6,9 +6,12 @@ import './App.css';
 
 function Contact() {
     return(
-        <section id="contact" className="container font-mono">
+        <section id="contact" className="footer font-mono">
             <div>
-                <h2 className="text-4xl text-grape font-bold">Let's chat!</h2>
+                <h2 className="text-4xl text-sapphire font-bold pb-10">Let's chat!</h2>
+                    <a href="https://www.linkedin.com/in/rachel--jiang/"><LinkedInLogo /></a>
+                    <a href="https://github.com/rachelj521"><GithubLogo /></a>
+                    <a className="px-8" href="mailto:rjiang521@gmail.com"><MailLogo /></a>
                 </div>
         </section>
     )
