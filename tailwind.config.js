@@ -11,7 +11,7 @@ module.exports = {
         "alabaster":"#F9F6F1",
         "space":"#283044",
         "sapphire":"#2A5B75",
-        "blush": "#F9F0F2",
+        "thistle": "#D1B3C4",
       },
       backgroundImage: {
         "watercolor": "url('/public/watercolor.jpg')",
