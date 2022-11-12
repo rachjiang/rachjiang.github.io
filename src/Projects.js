@@ -6,7 +6,7 @@ function Projects() {
     return (
     <section id="projects">
         <div>
-            <h2 className="project-header text-grape underline underline-offset-8">PROJECTS</h2>
+            <h2 className="project-header">Projects</h2>
             {projects.map(project => {
                 return (
                 <div className="project-container">
@@ -15,8 +15,8 @@ function Projects() {
                             <img alt="project" src={require(`./assets/${project.image}`)}/>
                         </a>
                     </div>
-                    <div className="text-col">
-                        <p className="font-bold">{project.title}</p><br></br>
+                    <div className="text-col font-mono">
+                        <p className="text-2xl text-lilac font-bold">{project.title}</p><br></br>
                         <p>{project.description}</p><br></br>
                         <p>Contributions: {project.contribution}</p><br></br>
                         <p className="pb-5">{project.stack}</p>
