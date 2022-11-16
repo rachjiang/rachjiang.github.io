@@ -2,7 +2,7 @@ import './App.css';
 
 function Header() {
   return (
-    <section id="header" className="bg-watercolor border-b-2 border-blue py-10">
+    <section id="header" className="bg-watercolor">
             <h1 className="container">
                 <p className="text-4xl font-mono py-10">Hi there<span>, my name is</span></p>
                 <p className="text-8xl font-bold py-10 text-sapphire">Rachel Jiang</p>
