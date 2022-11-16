@@ -15,9 +15,9 @@ function About() {
                         <li>JavaScript</li>
                         <li>React</li>
                         <li>Redux</li>
+                        <li>Node.js</li>
                         <li>Express</li>
                         <li>PostgreSQL</li>
-                        <li>Node.js</li>
                     </ul>
                     <p>When I'm not coding, some of my favorite activities are randomly belting out songs of many genres (including the ad-libs), smothering my cat with clearly unwarranted attention, and sprawling out onto my yoga mat when the sun sets.</p>
                 </div>

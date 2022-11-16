@@ -12,7 +12,7 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/rachel--jiang/"><LinkedInLogo /></a>
                     <a href="https://github.com/rachelj521"><GithubLogo /></a>
                     <a href="mailto:rjiang521@gmail.com"><MailLogo /></a>
-                    <p className="pt-8">© Made by Rachel Jiang 2022</p>
+                    <p className="pt-8">© 2022 Made by Rachel Jiang</p>
                 </div>
         </section>
     )
