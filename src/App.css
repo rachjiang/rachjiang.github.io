@@ -50,7 +50,7 @@
 
 #about img {
   padding-top: 80px;
-  max-height: 500px;
+  max-height: 70vh;
   margin: auto;
 }
 
@@ -60,7 +60,6 @@
   justify-content: space-evenly;
   align-items: flex-start;
   text-align: start;
-  padding-top: 150px;
   column-gap: 5rem;
   font-size: 16pt;
   color: #2A5B75;
