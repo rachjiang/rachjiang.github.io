@@ -175,6 +175,10 @@ img:hover {
 
 
 @media screen and (max-width: 1024px) { /* sm windows and tablets */
+  .nav {
+    text-align: center;
+  }
+  
   .container {
     padding: 200px;
   }
@@ -207,7 +211,5 @@ img:hover {
   .text-col {
     max-width: 75%;
   }
-
-
 
 }
