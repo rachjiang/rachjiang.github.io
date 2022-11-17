@@ -1,7 +1,7 @@
 const projects = [
  {
     title: "Tomato",
-    description: "Tomato is a new and unique way to connect live with your friends and your community. Drop a pin to your precise location with a message, a photo, or a video to broadcast events to your friends and the world.",
+    description: "Tomato is a new and unique way to connect in real-time with your friends and community. Drop a pin to your precise location with a message, photo, or video to broadcast events to your friends and the world.",
     contribution: "Built friend request system with ability to send, accept or remove requests and user authentication with account/profile settings using Google's Firebase.",
     stack: "React Native, Expo, React Native Paper, Firebase, Cloudinary, Google Maps API",
     image: "Tomato.png",
