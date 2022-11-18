@@ -13,7 +13,7 @@ const projects = [
     contribution: "Integrated Clarifai's food-recognition AI model into a react app through Node, set up Express route to upload images for ingredient prediction, created react components for image search and prediction results, styled with Bootstrap.",
     stack: "React, Express, Node.js, Clarifai, Bootstrap",
     image: "II.png",
-    github: "https://github.com/rachelj521/Ingredient-Inspector",
+    github: "https://github.com/rachjiang/Ingredient-Inspector",
  },
  {
     title: "Pet Play",
