@@ -8,11 +8,12 @@ function Contact() {
     return(
         <section id="contact" className="footer">
             <div>
-                <h2 className="text-4xl text-sapphire font-bold pb-10">Let's chat!</h2>
+                <h2 className="text-4xl text-sapphire font-bold pb-5">Let's chat!</h2>
+                    <p className="pb-7 font-bold text-teal">rjiang521@gmail.com</p>
                     <a href="https://www.linkedin.com/in/rachel--jiang/"><LinkedInLogo /></a>
                     <a href="https://github.com/rachjiang"><GithubLogo /></a>
                     <a href="mailto:rjiang521@gmail.com"><MailLogo /></a>
-                    <p className="pt-8">© 2022 Made by Rachel Jiang</p>
+                    <p className="pt-5">© 2022 Made by Rachel Jiang</p>
                 </div>
         </section>
     )

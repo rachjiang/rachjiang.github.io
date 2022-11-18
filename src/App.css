@@ -156,7 +156,7 @@ img:hover {
 .footer {
   width: 100%;
   text-align: center;
-  padding-block: 12vh;
+  padding-block: 10vh;
   background-color: #E4DFDA;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -190,7 +190,8 @@ img:hover {
   .about-col ul {
     border-right: none;
     border-left: none;
-    padding-block: 50px;
+    padding-block: 40px;
+    
   }
   
   .project-header {

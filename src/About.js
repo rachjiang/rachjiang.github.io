@@ -11,7 +11,7 @@ function About() {
                 <div className="about-col">
                     <p>I'm a full stack developer with experience primarily in the JavaScript PERN stack. As a graduate of The Grace Hopper Program, I've built web and mobile applications by contributing to both front and back ends with integration through relational/non-relational databases. I enjoy sharing ideas and absorbing knowledge from fellow coders when pair-programming. When I program independently, I find deep-satisfaction in creative problem-solving and learning new technologies. Currently, I am seeking roles as a full stack developer. Please reach out if you'd like to chat!</p>
                     <ul>
-                        <li className="font-bold underline pb-5">Skills</li>
+                        <li className="font-bold underline pb-3">Skills</li>
                         <li>JavaScript</li>
                         <li>React</li>
                         <li>Redux</li>
