@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as MailLogo } from './assets/mail.svg';
 import { ReactComponent as LinkedInLogo } from './assets/linkedin.svg';
 import { ReactComponent as GithubLogo } from './assets/github.svg';
-import './App.css';
+import './styles.css';
 
 function Contact() {
     return(

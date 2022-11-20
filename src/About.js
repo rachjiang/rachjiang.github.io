@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles.css';
 import portrait from './assets/portrait.png'
 
 function About() {
