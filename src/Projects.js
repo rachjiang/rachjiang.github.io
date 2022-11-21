@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from './assets/projects';
-import './App.css';
+import './styles.css';
 
 function Projects() {
     return (
@@ -20,7 +20,7 @@ function Projects() {
                         <p>{project.description}</p><br></br>
                         <p>Contributions: {project.contribution}</p><br></br>
                         <p className="pb-5">{project.stack}</p>
-                        <a href={project.github}>View project</a>
+                        <a href={project.github}>View Github</a>
                     </div>
                 </div>
                 )
