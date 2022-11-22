@@ -59,23 +59,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-start;
   text-align: start;
   column-gap: 5rem;
   font-size: 1.3rem;
   color: #2A5B75;
+  padding-inline: 1rem;
 }
 
 .about-col ul {
   white-space: nowrap;
-  border-right: 0.1rem solid black;
-  border-left: 0.1rem solid black;
-  padding-inline: 6rem;
+  border-inline: 0.1rem solid black;
+  padding-inline: 4rem;
 }
-
-/* div.about-col {
-  max-width: 100%
-} */
 
 .project-header {
   max-width: 100%;
