@@ -50,7 +50,7 @@
 }
 
 #about img {
-  padding-top: 80px;
+  padding-top: 5rem;
   max-height: 65vh;
   margin: auto;
 }
@@ -62,7 +62,7 @@
   align-items: flex-start;
   text-align: start;
   column-gap: 5rem;
-  font-size: 16pt;
+  font-size: 1.3rem;
   color: #2A5B75;
 }
 
@@ -70,7 +70,7 @@
   white-space: nowrap;
   border-right: 0.1rem solid black;
   border-left: 0.1rem solid black;
-  padding-inline: 100px;
+  padding-inline: 6rem;
 }
 
 /* div.about-col {
@@ -179,7 +179,7 @@ img:hover {
 
 
 
-@media screen and (max-width: 1024px) { /* sm windows and tablets */
+@media screen and (max-width: 1200px) { /* sm windows and tablets */
   .nav {
     text-align: center;
   }
