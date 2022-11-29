@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         "teal": "#459b98",
         "blue": "#5C8EAD",
-        "timberwolf": "#E4DFDA",
+        "ghost": "#F8FEFF",
         "alabaster":"#F9F6F1",
         "space":"#283044",
         "sapphire":"#2A5B75",

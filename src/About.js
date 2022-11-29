@@ -5,7 +5,7 @@ import portrait from './assets/portrait.png'
 function About() {
     return(
         <section id="about">
-            <div className="container bg-snow">
+            <div className="container bg-ghost">
                 <h2>Get to know me!</h2>
                 <img alt="headshot" src={portrait} />
                 <div className="about-col">
