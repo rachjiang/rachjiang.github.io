@@ -16,7 +16,7 @@ function Projects() {
                         </a>
                     </div>
                     <div className="text-col">
-                        <p className="text-2xl text-lilac font-bold">{project.title}</p><br></br>
+                        <p className="text-xl text-lilac font-bold">{project.title}</p><br></br>
                         <p>{project.description}</p><br></br>
                         <p>Contributions: {project.contribution}</p><br></br>
                         <p className="pb-5">{project.stack}</p>
