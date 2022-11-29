@@ -11,7 +11,7 @@ module.exports = {
         "space":"#283044",
         "sapphire":"#2A5B75",
         "thistle": "#D1B3C4",
-        "snow": "#FFFCF2",
+        "linen": "#FCF8F4",
         "lilac": "#7A8BBD",
       },
       backgroundImage: {
