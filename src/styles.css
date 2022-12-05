@@ -31,6 +31,7 @@
 }
 
 #header {
+  background-image: url("./assets/watercolor.jpg");
   border-bottom: 0.1rem solid #5C8EAD;
   padding: 5rem;
 }
@@ -51,7 +52,7 @@
 
 #about img {
   padding-top: 3rem;
-  max-height: 55vh;
+  max-height: 50vh;
   margin: auto;
 }
 
@@ -176,13 +177,17 @@ img:hover {
 
 
 
-@media screen and (max-width: 1200px) { /* laptops and tablets*/
+@media screen and (max-width: 1200px) { /* laptops and tablets */
   .nav {
     text-align: center;
   }
 
   .container {
     padding: 200px;
+  }
+
+  #about img {
+    max-height: 45vh;
   }
 
   .about-col {
@@ -194,7 +199,6 @@ img:hover {
     border-right: none;
     border-left: none;
     padding-block: 40px;
-    
   }
   
   .project-header {
@@ -218,12 +222,58 @@ img:hover {
   }
 
   .text-col {
-    max-width: 70%;
+    max-width: 60%;
     font-size: 11pt;
   }
 
 }
 
-@media screen and (max-width: 768px) { /* mobile */
+@media screen and (max-width: 768px) { /* tablet */
   
+  .container {
+    padding-inline: 3.5rem;
+    padding-block: 9rem;
+  }
+
+  #about img {
+    max-height: 35vh;
+  }
+
+  .text-col {
+    max-width: 85%;
+    font-size: 11pt;
+  }
+  
+}
+
+@media screen and (max-width: 640px) { /* mobile */
+
+  .nav {
+    display: none;
+  }
+
+  .container {
+    padding: 0.5rem;
+    padding-block: 8rem;
+  }
+
+  #about h2 {
+    font-size: 30pt;
+  }
+
+  .project-header {
+    font-size: 30pt;
+    padding-top: 6rem;
+  }
+
+  .project-container {
+    padding-bottom: 8.5rem;
+  }
+
+  .text-col {
+    max-width: 90%;
+    font-size: 11pt;
+    padding: 2rem;
+  }
+
 }
