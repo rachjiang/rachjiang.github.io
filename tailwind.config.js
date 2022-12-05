@@ -14,10 +14,10 @@ module.exports = {
         "linen": "#FCF8F4",
         "lilac": "#7A8BBD",
       },
-      backgroundImage: {
-        "watercolor": "url('/public/watercolor.jpg')",
-      }
     },
+    screens: {
+      'sm': {'max': '639px'},
+    }
   },
   plugins: [],
 }
