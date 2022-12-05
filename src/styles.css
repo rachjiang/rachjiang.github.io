@@ -151,7 +151,7 @@ img:hover {
 }
 
 .footer {
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   padding-block: 10vh;
   background-color: #E4DFDA;
@@ -222,7 +222,7 @@ img:hover {
   }
 
   .text-col {
-    max-width: 60%;
+    max-width: 65%;
     font-size: 11pt;
   }
 
@@ -254,7 +254,7 @@ img:hover {
 
   .container {
     padding: 0.5rem;
-    padding-block: 8rem;
+    padding-block: 7rem;
   }
 
   #about h2 {
@@ -274,6 +274,10 @@ img:hover {
     max-width: 90%;
     font-size: 11pt;
     padding: 2rem;
+  }
+
+  .footer {
+    padding-block: 6vh;
   }
 
 }
