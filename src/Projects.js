@@ -10,12 +10,12 @@ function Projects() {
             {projects.map(project => {
                 return (
                 <div className="project-container">
-                    <div className="img-col">
+                    <div data-aos="flip-right" data-aos-duration="3500" data-aos-delay="300" className="img-col">
                         <a href={project.github}>
                             <img alt="project" src={require(`./assets/${project.image}`)}/>
                         </a>
                     </div>
-                    <div className="text-col">
+                    <div data-aos="flip-left" data-aos-duration="3500" data-aos-delay="900" className="text-col">
                         <p className="text-xl text-lilac font-bold">{project.title}</p><br></br>
                         <p>{project.description}</p><br></br>
                         <p>Contributions: {project.contribution}</p><br></br>
