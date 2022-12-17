@@ -31,7 +31,7 @@
 }
 
 #header {
-  background-image: url("./assets/watercolor.jpg");
+  background-image: url('./assets/images/watercolor.jpg');
   border-bottom: 0.1rem solid #5C8EAD;
   padding: 5rem;
 }
@@ -65,12 +65,33 @@
   font-size: 1.3rem;
   color: #2A5B75;
   padding-inline: 1rem;
+
 }
 
 .about-col ul {
   white-space: nowrap;
   border-inline: 0.1rem solid black;
   padding-inline: 4rem;
+  line-height: 3rem;
+}
+
+.about-col img {
+  display: inline-block;
+  vertical-align: middle;
+} 
+
+.cat {
+font-weight: 700;
+background-clip: text;
+color: transparent;
+font-style: italic;
+}
+
+.cat:hover:after {
+  content: url(./assets/images/cat.png);
+  display: inline-block;
+  position: absolute;
+  left: 60%;
 }
 
 .project-header {
@@ -133,7 +154,7 @@ img:hover {
   border-radius: 25px;
   border: 0.15rem solid #373E40; 
   font-size: 11pt;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
 .text-col a {
@@ -174,7 +195,15 @@ img:hover {
 
 
 
-
+@media screen and (min-width: 1920px){
+  .about-col {
+    max-width: 75%;
+    margin: auto;
+  }
+  .about-col ul {
+    line-height: 2.5rem;
+  }
+}
 
 
 @media screen and (max-width: 1200px) { /* laptops and tablets */
@@ -198,9 +227,9 @@ img:hover {
   .about-col ul {
     border-right: none;
     border-left: none;
-    padding-block: 40px;
+    padding-block: 3rem;
   }
-  
+
   .project-header {
     padding-bottom: 5rem;
   }

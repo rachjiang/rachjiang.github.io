@@ -13,6 +13,9 @@ module.exports = {
         "thistle": "#D1B3C4",
         "linen": "#FCF8F4",
         "lilac": "#7A8BBD",
+        "fuscia": "#9B547C",
+        "ruby": "#D81E5B",
+        "fire": "#EB5E55",
       },
     },
     screens: {
