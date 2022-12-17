@@ -15,7 +15,6 @@ module.exports = {
         "lilac": "#7A8BBD",
         "fuscia": "#9B547C",
         "ruby": "#D81E5B",
-        "fire": "#EB5E55",
       },
     },
     screens: {
