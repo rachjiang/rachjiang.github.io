@@ -12,7 +12,7 @@ function Projects() {
                 <div className="project-container">
                     <div data-aos="flip-right" data-aos-duration="3500" data-aos-delay="300" className="img-col">
                         <a href={project.github}>
-                            <img alt="project" src={require(`./assets/${project.image}`)}/>
+                            <img alt="project" src={require(`./assets/images/${project.image}`)}/>
                         </a>
                     </div>
                     <div data-aos="flip-left" data-aos-duration="3500" data-aos-delay="900" className="text-col">

@@ -1,7 +1,7 @@
 import React from 'react';
-import { ReactComponent as MailLogo } from './assets/mail.svg';
-import { ReactComponent as LinkedInLogo } from './assets/linkedin.svg';
-import { ReactComponent as GithubLogo } from './assets/github.svg';
+import { ReactComponent as MailLogo } from './assets/icons/mail.svg';
+import { ReactComponent as LinkedInLogo } from './assets/icons/linkedin.svg';
+import { ReactComponent as GithubLogo } from './assets/icons/github.svg';
 import './styles.css';
 
 function Contact() {
@@ -14,6 +14,7 @@ function Contact() {
                     <a href="https://github.com/rachjiang"><GithubLogo /></a>
                     <a href="mailto:rjiang521@gmail.com"><MailLogo /></a>
                     <p className="pt-5">© 2022 Made by Rachel Jiang</p>
+                    <a className="pt-2 text-white" href="https://www.flaticon.com/">Icons created by Freepik - Flaticon</a>
                 </div>
         </section>
     )
