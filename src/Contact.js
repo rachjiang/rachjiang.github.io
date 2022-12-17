@@ -13,8 +13,8 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/rachel--jiang/"><LinkedInLogo /></a>
                     <a href="https://github.com/rachjiang"><GithubLogo /></a>
                     <a href="mailto:rjiang521@gmail.com"><MailLogo /></a>
-                    <p className="pt-5">© 2022 Made by Rachel Jiang</p>
-                    <a className="pt-2 text-white" href="https://www.flaticon.com/">Icons created by Freepik - Flaticon</a>
+                    <p className="py-5">© 2022 Made by Rachel Jiang</p>
+                    <a className="text-xs text-gray-500" href="https://www.flaticon.com/">Icons created by Freepik - Flaticon</a>
                 </div>
         </section>
     )

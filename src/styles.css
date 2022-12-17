@@ -126,16 +126,6 @@ font-style: italic;
   display: block;
 }
 
-.middle {
-  transition: .2s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 img:hover {
   opacity: .99;
 }
@@ -196,8 +186,12 @@ img:hover {
 
 
 @media screen and (min-width: 1920px){
+  #about img {
+    /* max-height: 45vh; */
+  }
+
   .about-col {
-    max-width: 75%;
+    max-width: 70vw;
     margin: auto;
   }
   .about-col ul {
