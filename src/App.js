@@ -5,7 +5,6 @@ import About from './About';
 import Contact from './Contact';
 
 function App() {
-
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }
