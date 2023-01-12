@@ -4,6 +4,7 @@ import * as animationData from './assets/images/hand.json'
 import { useState } from 'react'
 
 function LottieControl(props) {
+  // eslint-disable-next-line no-unused-vars
   const [isStopped, setIsStopped] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
 
@@ -17,7 +18,7 @@ function LottieControl(props) {
   };
 
   return (
-    <Lottie options={defaultOptions} height={100} width={100} />
+    <Lottie options={defaultOptions} height={150} width={150} />
     )
 }
 

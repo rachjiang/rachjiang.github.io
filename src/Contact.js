@@ -8,7 +8,7 @@ function Contact() {
     return(
         <section id="contact" className="footer">
             <div>
-                <h2 className="sm:text-2xl text-4xl text-sapphire font-bold pb-5">Let's chat!</h2>
+                <h2 className="sm:text-2xl text-4xl text-sapphire font-extrabold pb-5">Let's chat!</h2>
                     <p className="pb-7 font-bold text-teal">rjiang521@gmail.com</p>
                     <a href="https://www.linkedin.com/in/rachel--jiang/" target="_blank" rel="noopener noreferrer"><LinkedInLogo /></a>
                     <a href="https://github.com/rachjiang" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
