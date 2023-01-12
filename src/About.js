@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import portrait from './assets/images/portrait.png';
+// import portrait from './assets/images/portrait.png';
 import pdf from './assets/Rachel_Jiang_Resume2022.pdf';
 
 function About() {
