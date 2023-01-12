@@ -17,7 +17,7 @@ function LottieControl(props) {
   };
 
   return (
-    <Lottie options={defaultOptions} height={50} width={50} />
+    <Lottie options={defaultOptions} height={100} width={100} />
     )
 }
 
