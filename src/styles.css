@@ -47,7 +47,7 @@
 .animation {
   padding-inline: 1.5rem;
   position: absolute;
-  bottom: 0;
+  bottom: -7%;
 }
 
 .name {
@@ -73,8 +73,8 @@
 
 .skills {
   max-width: 100%;
-  margin-block: 5rem;
-  margin-inline: 5rem;
+  margin-block: 3rem;
+  margin-inline: 3rem;
   border-block: 0.1rem solid #459b98;
   font-size: 1.3rem;
   color: #459b98;
@@ -121,7 +121,7 @@ font-style: italic;
   color: #4a86ac;
   text-align: center;
   padding-top: 10rem;
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 40pt;
   font-weight: 800;
@@ -209,7 +209,7 @@ img:hover {
 @media screen and (min-width: 1920px){
 
   #header > .container {
-    padding-inline: 20rem;
+    padding-inline: 10rem;
   }
 
   .nav {
@@ -217,11 +217,12 @@ img:hover {
   }
 
   .about-content {
-    margin-inline: 25rem;
+    margin-inline: 15rem;
   }
 
   .skills {
-    margin-inline: 25rem;
+    margin-inline: 15rem;
+    padding-block: none;
   }
 
   .skills-items {
@@ -280,6 +281,10 @@ img:hover {
     padding-block: 9rem;
   }
 
+  .animation {
+    bottom: -5%;
+  }
+
   .text-col {
     max-width: 85%;
     font-size: 11pt;
@@ -309,6 +314,7 @@ img:hover {
 
   .about-content {
     margin-inline: 1.5rem;
+    font-size: 11pt;
   }
 
   .skills {
@@ -317,14 +323,15 @@ img:hover {
 
   .skills-items {
     flex-direction: column;
+    font-size: 11pt;
   }
 
   .skills-items span {
-    margin-block: 0.5rem;
+    margin-block: 0.1rem;
   }
 
   .project-header {
-    font-size: 30pt;
+    font-size: 24pt;
     padding-top: 6rem;
   }
 
@@ -340,6 +347,7 @@ img:hover {
 
   .footer {
     padding-block: 6vh;
+    font-size: 11pt;
   }
 
 }
