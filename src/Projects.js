@@ -16,7 +16,7 @@ function Projects() {
                         </a>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="3500" data-aos-delay="650" className="text-col">
-                        <p className="text-xl text-lilac font-bold">{project.title}</p><br></br>
+                        <p className="sm:text-lg text-xl text-lilac font-bold">{project.title}</p><br></br>
                         <p>{project.description}</p><br></br>
                         <p>Contributions: {project.contribution}</p><br></br>
                         <p className="pb-5">{project.stack}</p>
