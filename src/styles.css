@@ -83,7 +83,7 @@
 .skills-items {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .skills-items span {
@@ -97,7 +97,7 @@
 
 .skills-items span:hover {
   color: #00a2ff;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .cat {
