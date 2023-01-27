@@ -22,6 +22,9 @@ function About() {
                         <span>PostgreSQL</span>
                         <span>React Native</span>
                         <span>Git</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Python3</span>
                     </div>
                     <button className="sm:text-sm px-6 py-2 mb-16 font-semibold border-4 bg-sapphire rounded-full border-sapphire hover:bg-blue hover:border-blue text-white text-center"><a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a></button>
                 </div>
