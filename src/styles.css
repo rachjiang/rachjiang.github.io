@@ -83,7 +83,7 @@
 .skills-items {
   display: flex;
   justify-content: flex-start;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .skills-items span {
