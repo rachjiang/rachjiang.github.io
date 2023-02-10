@@ -11,9 +11,9 @@ function Navbar() {
             </Link>
             <Link to="projects" smooth={true} duration={500} >Projects
             </Link>
+            <Link to="contact" smooth={true} duration={500}>Contact
+            </Link>
             <a href={pdf} target="_blank" rel="noopener noreferrer" >Resume</a>
-        <Link to="contact" smooth={true} duration={500}>Contact
-        </Link>
         </div>
     </nav>
     )
