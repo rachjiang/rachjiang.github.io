@@ -53,7 +53,7 @@
 }
 
 .name {
-  font-weight: 800;
+  font-weight: 650;
   background-clip: text;
   color: transparent;
 }
@@ -70,7 +70,7 @@
 
 .highlight {
   color: #459b98;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .skills {
@@ -93,17 +93,17 @@
   margin-right: 4.5rem;
   padding-block: 1rem;
   white-space: nowrap;
-  color: #459b98;
-  font-weight: 400;
+  color: #268fd0;
+  font-weight: 450;
 }
 
 .skills-items span:hover {
-  color: #00a2ff;
-  font-weight: 500;
+  color: #c6104d;
+  font-weight: 550;
 }
 
 .cat {
-font-weight: 800;
+font-weight: 750;
 background-clip: text;
 color: transparent;
 font-style: italic;
@@ -125,8 +125,8 @@ font-style: italic;
   padding-top: 10rem;
   padding-bottom: 5rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 40pt;
-  font-weight: 800;
+  font-size: 30pt;
+  font-weight: 600;
 }
 
 .project-container {
@@ -172,16 +172,13 @@ img:hover {
 
 .text-col a {
   text-align: end;
-  color:#18b7b2;
-  font-weight: 700;
+  font-weight: 600;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .text-col a:hover {
-  font-size: 15pt;
-  opacity: 0.8;
-  color: #141d33;
-  box-shadow: inset 150px 0 0 0 #D1B3C4;
+  color: rgb(255, 255, 255);
+  box-shadow: inset 150px 0 0 0 #2A5B75;
 }
 
 .footer {
@@ -195,11 +192,15 @@ img:hover {
 .footer a {
   display: inline-block; 
   padding-inline: 2vw;
+  padding-block: 0.5vh;
+  border-radius: 25px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .footer a:hover {
   border-radius: 25px;
-  box-shadow: inset 10px 1em 1em 1em #f1dbe7;
+  padding-block: 0.5vh;
+  box-shadow: inset 150px 0 0 0 #8ec7ea;
 }
 
 
