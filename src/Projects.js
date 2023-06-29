@@ -20,7 +20,7 @@ function Projects() {
                         <p>{project.description}</p><br></br>
                         <p>Contributions: {project.contribution}</p><br></br>
                         <p className="pb-5">{project.stack}</p>
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">View Github</a>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">View on GitHub</a>
                     </div>
                 </div>
                 )

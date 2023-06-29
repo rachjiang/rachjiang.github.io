@@ -23,12 +23,14 @@
   padding-inline: 22px;
   padding-block: 9px;
   margin-inline: 15px;
-  background-color: #5C8EAD;
+  color: #2A5B75;
+  font-size: 20px;
+  /* background-color: #5C8EAD; */
   border-radius: 0.25rem;
 }
 
 .nav a:hover {
-  background-color: #459b98;
+  text-decoration: underline;
 }
 
 #header {
@@ -197,7 +199,7 @@ img:hover {
 
 .footer a:hover {
   border-radius: 25px;
-  box-shadow: inset 10px 1em 1em 1em #D1B3C4;
+  box-shadow: inset 10px 1em 1em 1em #f1dbe7;
 }
 
 
