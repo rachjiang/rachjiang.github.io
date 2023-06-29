@@ -24,7 +24,7 @@ function Header() {
           </span>
           </p>
           <p data-aos="flip-up" data-aos-duration="3500" data-aos-delay="800"  className="sm:text-5xl text-8xl font-bold py-10 text-sapphire">My name is, <span className="name bg-gradient-to-r from-ruby via-fuscia to-teal">Rachel.</span></p>
-          <p data-aos="zoom-out-down" data-aos-duration="3500" data-aos-delay="1400" className="sm:text-2xl text-5xl font-semibold text-teal pt-28">Full Stack Software Developer</p>
+          <p data-aos="zoom-out-down" data-aos-duration="3500" data-aos-delay="1400" className="sm:text-2xl text-5xl font-semibold text-teal pt-28">Full Stack Software Engineer</p>
       </div>
     </section>
     );
