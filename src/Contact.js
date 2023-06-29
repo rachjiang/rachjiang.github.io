@@ -8,13 +8,13 @@ function Contact() {
     return(
         <section id="contact" className="footer">
             <div>
-                <h2 className="sm:text-2xl text-4xl text-sapphire font-extrabold pb-5">Let's chat!</h2>
-                    <p className="pb-7 font-bold text-teal">rjiang521@gmail.com</p>
+                <h2 className="sm:text-2xl text-4xl text-sapphire font-bold pb-5">Let's connect!</h2>
+                    <p className="pb-5 font-bold text-teal">rjiang521@gmail.com</p>
                     <a href="https://www.linkedin.com/in/rachel--jiang/" target="_blank" rel="noopener noreferrer"><LinkedInLogo /></a>
                     <a href="https://github.com/rachjiang" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
                     <a href="mailto:rjiang521@gmail.com" target="_blank" rel="noopener noreferrer"><MailLogo /></a>
-                    <p className="py-5">© 2022 Made by Rachel Jiang</p>
-                    <a className="text-xs text-gray-500" href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Icons created by Freepik - Flaticon</a>
+                    <p className="py-3">© 2022 Made by Rachel Jiang</p>
+                    <a className="text-xs text-white" href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Icons created by Freepik - Flaticon</a>
                 </div>
         </section>
     )
